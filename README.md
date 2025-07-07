@@ -30,9 +30,10 @@ This PowerShell script monitors Azure App Registrations for expiring **client se
 ---
 
 ## Setup Instructions
+Download - AppCredentialExpiryMonitor.ps1
+
 **Configure Credential in Windows Credential Manager**
 Use the following command under the context of the account that will run the script:
-
 **cmdkey /add:"AzureAppExpiryNotifier" /user:"<client-id>" /pass:"<client-secret>"**
 Replace <client-id> and <client-secret> with your Azure App credentials.
 
